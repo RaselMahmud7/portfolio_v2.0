@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.banner {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 15px;
+    padding-left: 5%;
+
+}
+
+h2 {
+    font-size: 40px;
+
+
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+
+}
+
+.name {
+
+    color: goldenrod;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 60px;
+
+
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange, tomato);
+}
+
+#btn-1 {
+    width: 15%;
+}
+
+#btn-2 {
+    width: 30%;
+}
+
+.container img {
+    width: 90%;
+
+}
+
+.dream {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.goal {
+    margin-right: 10%;
+}
+
+.exp {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h1{
+    margin:20px 0;
+    font-size: 45px;
+}
+.card-full {
+    display: flex;
+    margin: 5px 25px;
+    padding: 15px 35px;
+    
+}
+h3{
+    font-size: 30px;
+}
+.card {
+    padding: 20px 20px;
+    margin-left: 20px;
+    box-shadow: 5px 7px 40px grey;
+ 
+}
+#fullstack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    
+
+}
+
+.time-line {
+    margin: 10px 0;
+    padding: 10px 0;
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding: 10px 20px;
+}
