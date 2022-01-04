@@ -92,7 +92,7 @@ p {
 
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left center;
 }
 h1{
     margin:20px 0;
@@ -141,3 +141,62 @@ footer {
     font-family: cursive;
     padding: 10px 20px;
 }
+
+/* Extra */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.container1{
+    /* background: #EEF2FF; */
+    margin: 0;
+    padding: 0;
+}
+
+.sec-navarea {
+    margin: 15px 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    /* background-color: #ffcece; */
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+    color: slategray;
+    box-shadow: 5px 5px 40px rgb(255, 217, 217);
+    
+
+
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    display: inline;
+    width: 30%;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin: 5px;
+    padding: 20px 10px;
+}
+
+section ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.nav-item a {
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(53, 12, 12);
+    padding: 10px;
+
+}
+
