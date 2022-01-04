@@ -59,7 +59,10 @@ p {
     text-transform: uppercase;
     background-image: linear-gradient(orange, tomato);
 }
-
+.btn:hover{
+    background-image: linear-gradient(rgb(113, 113, 204),cyan);
+    color: black;
+}
 #btn-1 {
     width: 15%;
 }
